@@ -1,0 +1,14 @@
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\bin\Debug\net6.0-windows\CarManagementBO.deps.json
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\bin\Debug\net6.0-windows\CarManagementBO.runtimeconfig.json
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\bin\Debug\net6.0-windows\CarManagementBO.dll
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\bin\Debug\net6.0-windows\CarManagementBO.pdb
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.AssemblyInfo.cs
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.dll
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\refint\CarManagementBO.dll
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.pdb
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\CarManagementBO.genruntimeconfig.cache
+C:\Users\dell\source\repos\CarManagementWPF\CarManagementBO\obj\Debug\net6.0-windows\ref\CarManagementBO.dll

@@ -1,0 +1,18 @@
+﻿<Window x:Class="CarManagementSolution.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarManagementSolution"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="450" Width="800">
+    <Canvas>
+        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Center" Height="52" Width="123" FontSize="24" Canvas.Left="80" Canvas.Top="121"/>
+        <Label Content="Password" Height="52" Width="123" FontSize="24" Canvas.Left="80" Canvas.Top="217" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txt_Email" Canvas.Left="208" TextWrapping="Wrap" Canvas.Top="121" Width="492" HorizontalAlignment="Left" Height="52" VerticalAlignment="Center"/>
+        <TextBox x:Name="txt_Password" Canvas.Left="208" TextWrapping="Wrap" Canvas.Top="217" Width="492" Height="52" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="Button"/>
+        <Button x:Name="btn_Login" Content="Login" Canvas.Left="316" Canvas.Top="320" Height="57" Width="168" Click="Button_Click"/>
+
+    </Canvas>
+</Window>

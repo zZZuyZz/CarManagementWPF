@@ -1,0 +1,42 @@
+﻿<Window x:Class="CarManagementSolution.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarManagementSolution"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Canvas>
+        <GroupBox Height="200" Header="Information" Width="569" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="10" RenderTransformOrigin="0.484,0.184">
+            <Canvas>
+                <Label Content="UserName" Canvas.Top="10" HorizontalAlignment="Left" />
+                <Label Content="Email" Canvas.Top="52" Canvas.Left="1"/>
+                <Label Content="Password" Canvas.Top="97"/>
+                <Label Content="Tel" Canvas.Top="10" HorizontalAlignment="Center" Canvas.Left="278" VerticalAlignment="Top" />
+                <Label Content="Job" Canvas.Top="52" HorizontalAlignment="Center" Canvas.Left="278" VerticalAlignment="Top" />
+                <Label Content="CurrentAddress" Canvas.Top="140" HorizontalAlignment="Left" />
+                <Label Content="Role" Canvas.Top="92" HorizontalAlignment="Left" Canvas.Left="278" />
+                <TextBox x:Name="txt_Username"  Canvas.Left="70" TextWrapping="Wrap" Canvas.Top="14" Width="203" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="txt_Email" Canvas.Left="70" TextWrapping="Wrap" Canvas.Top="56" Width="203" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_Password" Canvas.Left="70" TextWrapping="Wrap" Canvas.Top="101" Width="203" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                <TextBox x:Name="txt_Currentaddress" Canvas.Left="99" TextWrapping="Wrap"  Canvas.Top="144" Width="448" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="txt_Tel" Canvas.Left="316" TextWrapping="Wrap"  Canvas.Top="14" Width="231" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox x:Name="txt_Job" Canvas.Left="316" TextWrapping="Wrap"  Canvas.Top="56" Width="231" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <ComboBox x:Name="cmb_Role" Canvas.Left="316" Canvas.Top="94" Width="231" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            </Canvas>
+        </GroupBox>
+        <GroupBox Height="200" Header="Operator" Width="211" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Top="10" Canvas.Left="589">
+            <Canvas>
+                <Button x:Name="btn_Add" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Canvas.Left="20" Canvas.Top="10" Click="btn_Add_Click"/>
+                <Button x:Name="btn_Update" Content="Update" Width="160" Canvas.Left="20" Canvas.Top="51" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btn_Update_Click"/>
+                <Button x:Name="btn_Delete" Content="Delete" Width="160" Canvas.Left="20" Canvas.Top="89" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btn_Delete_Click"/>
+                <Button x:Name="btn_Close" Content="Close" Width="160" Canvas.Left="20" Canvas.Top="131" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btn_Close_Click"/>
+
+            </Canvas>
+        </GroupBox>
+        <GroupBox Height="188" Header="Account" Width="800" HorizontalAlignment="Center" Canvas.Top="246" VerticalAlignment="Top">
+            <DataGrid x:Name="dtg_Account" Height="186" Width="800" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Center" Canvas.Top="248" VerticalAlignment="Top" SelectionChanged="dtg_Account_SelectionChanged"/>
+        </GroupBox>
+    </Canvas>
+</Window>
